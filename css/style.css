@@ -1,0 +1,292 @@
+/*&display=swap*/
+@import url('https://fonts.googleapis.com/css2?family=Taviraj&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700,900&display=swap");
+
+@font-face {
+	font-family: 'A Font with Serifs';
+	src: url('../fonts/AFontwithSerifs.woff2') format('woff2'),url('../fonts/AFontwithSerifs.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+
+.wraper {
+	overflow: hidden;
+	min-height: 100%;
+}
+.header {
+	font-size: 30px;
+	color: red;
+	margin-bottom: 100px;
+}
+.container {
+	max-width: 1920px;
+}
+.my-button {
+	display: inline-block;
+	border-radius: 20px 20px 20px 20px;
+	background-color: rgb(33, 116, 89);
+	color: aliceblue;
+	font-weight: 700;
+	font-size: 24px;
+	box-shadow: 0px 5px 5px 5px rgb(2, 26, 2);
+	margin: 0px 0px 140px 100px;
+	line-height: 60px;
+	width: 300px;
+	text-align: center;
+
+}
+.my-button:hover {
+	background-color: rgb(14, 78, 62);
+}
+
+.my-button:active {
+	box-shadow: inset 0px -5px 5px 5px rgb(2, 26, 2);
+	line-height: 70px;
+}
+
+.block {
+	max-width: 810px;
+	margin: 0px 0px 700px 100px;
+	font-family: "Lato", sans-serif;
+	font-size: 16px;
+	line-height: 160%;
+}
+
+
+.createx {
+	width: 398px;
+}
+.who {
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 150%;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: #1E212C;
+	margin: 0 0 8px 0;
+}
+.createx-title {
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 130%;
+	color: #1E212C;
+	margin: 0 0 40px 0;
+
+}
+.createx-list {
+	margin-bottom: 48px;
+}
+.createx-item {
+	color: #424551;
+	font-size: 16px;
+	line-height: 160%;
+	padding: 0 0 0 30px;
+}
+.createx-list li:not(:last-child){
+	margin: 0 0 12px 0;
+}
+.createx-item::before{
+	content: "";
+	width: 23px;
+	height: 22px;
+	display: inline-block;
+	margin: 0px 5px 0px -30px; 
+	background: url(../img/Vector.png) 0 0px / 16px no-repeat;
+	vertical-align: text-top;
+}
+.createx-item:hover{
+	font-size: 17px;
+}
+.button {
+	display: inline-block;
+	width: 163px;
+	border-radius: 4px;
+	background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+	font-weight: bold;
+	font-size: 14px;
+	text-align: center;
+	letter-spacing: 0.5px;
+	color: #FFFFFF;
+	line-height: 310%;
+	text-transform: capitalize;
+	margin-bottom: 100px;
+}
+.button:hover{
+	box-shadow: 5px 5px 15px 5px lightgrey;
+}
+
+.maple{
+	font-family: "Taviraj", serif ;
+	font-size: 36px;
+	line-height: 111%;
+	letter-spacing: 0.02em;
+	color: #333333;
+}
+.maple::after{
+	content: "";
+	display: block;
+	height: 1px;
+	width: 65px;
+	margin: 8px 0 0 0 ;
+	background-color:  #333333;
+}
+
+
+.footer{
+	font-size: 30px;
+	color: red;
+}
+
+/* ===============================part 2===================================== */
+
+.block-two {
+	max-width: 1800px;
+	background: url(../img/flovers.png) 0 0 / cover no-repeat ;
+	font-family: 'A Font with Serifs', sans-serif;
+	color: #123f07;
+	font-weight: 600;
+	margin: 0px 0px 50px 0px;
+}
+.pseudo-classes {
+	max-width: 70%;
+	line-height: 170%;
+	margin: 0px 0px 0px 40px;
+}
+
+.pseudo {
+	font-size: 45px;
+	text-align: center;
+	padding-top: 30px;
+	max-width: 90%;
+	margin: 0px auto;
+	margin-bottom: 40px;
+	
+}
+.pseudo::first-letter{
+	font-size: 56px;
+	color: #FF3F3A;
+}
+.pseudo:hover{
+	letter-spacing: 4px;
+	text-decoration: underline;
+	
+
+}
+.state {
+	font-size: 36px;
+	text-align: center;
+	margin: 0px auto;
+	max-width: 90%;
+	margin-bottom: 40px;
+	border-radius: 30px;
+}
+.state:hover{
+	background-color: #FFFFFF;
+}
+.hovery {
+	margin-bottom: 40px;
+	background-color: #c4e9d3;
+}
+.hovery::first-line{
+	color: #FF3F3A;
+}
+.pseudo-classes:hover .hover{
+	visibility: hidden;
+}
+.activis {
+	display: block;
+	width: 50px;
+	height: 50px;
+	background-color: #884745;
+	border-radius: 50%;
+	padding: 10px 0px 0px 5px;
+	margin: 0px auto;
+	margin-bottom: 40px;
+}
+.activis:hover{
+	box-shadow:0px 3px 3px 3px #1f1110;
+}
+.activis:active{
+	box-shadow:inset 0px 3px 3px 3px #1f1110;
+}
+.visit {
+	max-width: 90%;
+}
+.visit-link {
+	margin: 0px 0px 0px auto;
+	margin-bottom: 30px;
+	display: block;
+	border: 2px solid brown;
+	width: 150px;
+	background-color: #c4e9d3;
+	text-align: center;
+}
+.visit-link:visited{
+	background-color: #123f07;
+	color: #FFFFFF;
+	
+}
+
+.foc-link {
+	margin-bottom: 40px;
+	display: inline-block;
+	border: 2px solid brown;
+	width: 150px;
+	background-color: #c4e9d3;
+	text-align: center;
+}
+.foc-link:focus{
+	border: 3px solid brown;
+	background-color: #41ee86;
+}
+.target-text {
+	margin-bottom: 40px;
+}
+.target-text:target{
+	background-color: #ddecc3;
+	border: 10px dotted rgb(112, 6, 6);
+}
+.location {
+	font-size: 36px;
+	margin-bottom: 30px;
+	max-width: 700px;
+	text-align: center;
+	
+}
+.location::after{
+	content: "";
+	display: block;
+	height: 2px;
+	width: 100%;
+	margin: 20px 0px 0px 0px ;
+	background-color: #d42f11;
+}
+.example-list li{
+	padding: 0px 0px 0px 50px;
+	font-size: 20px;
+}
+.example-list li:first-child{
+	color: #FF3F3A;
+}
+.example-list li:nth-child(even):hover{
+	font-size: 18px;
+}
+.example-list li:nth-child(3n):hover{
+	visibility: hidden;
+}
+.example-list li:not(last-child){
+	margin-bottom: 50px;
+}
+.example-list li:nth-child(3n+4){
+	background-color: #e0e4e1;
+}
+.example-list li::before{
+	content: "";
+	width: 50px;
+	height: 50px;
+	display: inline-block;
+	background: url(../img/tulip.png) 0 0 / 40px no-repeat;
+	margin: 0px 10px 0px -60px ;
+}
